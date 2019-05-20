@@ -14,4 +14,9 @@ public class HtmlTestController {
     public String index() {
         return "index";
     }
+
+    @RequestMapping(path = {"/login"})
+    public String login() {
+        return "login";
+    }
 }
